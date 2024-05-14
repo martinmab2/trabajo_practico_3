@@ -1,6 +1,6 @@
 # Trabajo Práctico 3 - Programación Visual
 
-Este repositorio contiene el trabajo práctico número 3 de la materia Programación Visual de la carrera de Analista de Sistemas de la Universidad Nacional de José C. Paz (UNPAZ).
+Este repositorio contiene el trabajo práctico número 3 de la materia Programación Visual de la carrera de Analista de Sistemas de la Universidad Nacional de Jujuy (UNJU).
 
 ## Características del Proyecto
 
