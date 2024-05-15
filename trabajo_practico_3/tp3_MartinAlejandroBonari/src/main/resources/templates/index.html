@@ -1,12 +1,242 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Inicio</title>
+<meta charset="UTF-8">
+<title>PROGRAMACION VISUAL!!!</title>
 </head>
 <body>
-	<h1>Hola mundo</h1>
-	<p>Semundial</p>
-	<h2>Como crear una pagina/aplicacion web</h2>
+	<header>
+		<nav>
+			<h1>PROGRAMACION VISUAL</h1>
+			<h2>JAVA</h2>
+			<ul>
+				<li><a href="index.html">Primera Parte</a></li>
+				<li><a href="#SegundaParte">Segunda Parte</a></li>
+				<li><a href="">Tercera Parte</a></li>
+				<li><a href="">Cuarta Parte</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div>
+			<section>
+				<h2>Java</h2>
+				<p>Java es un lenguaje de programación de alto nivel, (altamente
+					tipado), y orientado a objetos, desarrollado por Sun Microsystems
+					(ahora propiedad de Oracle). Es ampliamente utilizado en el
+					desarrollo de aplicaciones de escritorio, aplicaciones web,
+					aplicaciones móviles, sistemas embebidos y más.</p>
+				<p>Entre sus características principales se encuentran la
+					portabilidad, la seguridad, el manejo automático de memoria (a
+					través del recolector de basura) y la amplia comunidad de
+					desarrolladores.</p>
+			</section>
+			<section>
+				<h2>Spring Tool Suite (STS)</h2>
+				<p>Spring Tool Suite es un entorno de desarrollo integrado (IDE)
+					basado en Eclipse y desarrollado por Pivotal. Está diseñado
+					específicamente para facilitar el desarrollo de aplicaciones
+					basadas en el framework Spring para Java.</p>
+				<p>STS proporciona características adicionales y herramientas
+					para simplificar el desarrollo de aplicaciones Spring, como
+					asistentes de configuración, integración con Maven y Gradle,
+					herramientas de visualización de proyectos, depuración avanzada, y
+					más.</p>
+			</section>
+			<h2 id="SegundaParte">Segunda Parte</h2>
+			<h2>Información sobre Java</h2>
+			<section>
+				<h2>String</h2>
+				<p>En Java, String es una clase que representa una secuencia de
+					caracteres. Se utiliza para manipular cadenas de texto, como
+					concatenar, comparar y extraer subcadenas.</p>
+			</section>
+			<section>
+				<h2>Calendar</h2>
+				<p>Calendar es una clase en Java que proporciona métodos para
+					manejar fechas y horas en el calendario gregoriano. Se utiliza para
+					realizar operaciones como obtener el año, mes, día, hora y minutos
+					de una fecha.</p>
+			</section>
+			<section>
+				<h2>LocalDate</h2>
+				<p>LocalDate es una clase introducida en Java 8 que representa
+					una fecha sin zona horaria. Se utiliza para representar fechas en
+					el formato "año-mes-día" y proporciona métodos para realizar
+					operaciones con fechas.</p>
+			</section>
+			<section>
+				<h2>Datos primitivos</h2>
+				<p>En Java, los datos primitivos son tipos de datos básicos que
+					representan valores simples. Los datos primitivos incluyen tipos
+					como int, double, boolean, char, entre otros. Se utilizan para
+					almacenar valores individuales y se pasan por valor.</p>
+			</section>
+			<section>
+				<h2>Conversiones implícitas y explícitas</h2>
+				<p>Las conversiones implícitas en Java son conversiones de tipos
+					de datos que ocurren automáticamente sin requerir una acción
+					explícita del programador. Por otro lado, las conversiones
+					explícitas son conversiones que requieren una acción explícita del
+					programador, como el casting de tipos.</p>
+			</section>
+			<section>
+				<h2>Wrappers</h2>
+				<p>Los wrappers en Java son clases que encapsulan tipos de datos
+					primitivos. Se utilizan para convertir tipos de datos primitivos en
+					objetos y proporcionan métodos útiles para trabajar con ellos.
+					Ejemplos de wrappers incluyen Integer, Double, Boolean, Character,
+					entre otros.</p>
+			</section>
+			<h2 id="TerceraParte">Tercera Parte</h2>
+			<h2>Tipos de Datos Interfaces y Arreglos</h2>
+			<div>
+				<table>
+					<tr>
+						<th>Tipo de Dato</th>
+						<th>Descripción</th>
+						<th>Tamaño (en bytes)</th>
+						<th>Rango</th>
+						<th>Ejemplo</th>
+					</tr>
+					<tr>
+						<td>byte</td>
+						<td>Entero de 8 bits con signo</td>
+						<td>1</td>
+						<td>-128 a 127</td>
+						<td>byte edad = 25;</td>
+					</tr>
+					<tr>
+						<td>short</td>
+						<td>Entero de 16 bits con signo</td>
+						<td>2</td>
+						<td>-32,768 a 32,767</td>
+						<td>short temperatura = -10;</td>
+					</tr>
+					<tr>
+						<td>int</td>
+						<td>Entero de 32 bits con signo</td>
+						<td>4</td>
+						<td>-2,147,483,648 a 2,147,483,647</td>
+						<td>int cantidad = 1000;</td>
+					</tr>
+					<tr>
+						<td>long</td>
+						<td>Entero de 64 bits con signo</td>
+						<td>8</td>
+						<td>-9,223,372,036,854,775,808 a 9,223,372,036,854,775,807</td>
+						<td>long poblacionMundial = 7800000000L;</td>
+					</tr>
+					<tr>
+						<td>float</td>
+						<td>Número de coma flotante de precisión simple</td>
+						<td>4</td>
+						<td>aproximadamente ±3.40282347E+38F</td>
+						<td>float altura = 1.75f;</td>
+					</tr>
+					<tr>
+						<td>double</td>
+						<td>Número de coma flotante de precisión doble</td>
+						<td>8</td>
+						<td>aproximadamente ±1.79769313486231570E+308</td>
+						<td>double precio = 19.99;</td>
+					</tr>
+					<tr>
+						<td>char</td>
+						<td>Un solo carácter Unicode de 16 bits</td>
+						<td>2</td>
+						<td>0 a 65,535</td>
+						<td>char inicial = 'A';</td>
+					</tr>
+					<tr>
+						<td>boolean</td>
+						<td>Tipo de datos booleano</td>
+						<td>1 (generalmente)</td>
+						<td>true o false</td>
+						<td>boolean activo = true;</td>
+					</tr>
+				</table>
+				<div>
+					<h3>Interfaces:</h3>
+					<p>En Java, una interfaz es una colección de métodos abstractos
+						y constantes. Proporciona un mecanismo para definir un contrato
+						que las clases deben seguir cuando implementan la interfaz.</p>
+					<p>Las interfaces se utilizan para definir un conjunto común de
+						métodos que pueden ser implementados por diferentes clases de
+						manera independiente. Esto facilita la creación de código modular
+						y promueve la reutilización.</p>
+					<p>Ejemplo:</p>
+					<pre>
+						<code>
+							public interface Forma {
+						    	double calcularArea();
+						    	double calcularPerimetro();}
+    					</code>
+					</pre>
+					<p>Una clase puede implementar una interfaz utilizando la
+						palabra clave `implements` y proporcionar implementaciones
+						concretas para los métodos definidos en la interfaz.</p>
+				</div>
+			</div>
+			<div>
+				<h3>Arreglos:</h3>
+				<p>En Java, un arreglo es una estructura de datos que contiene
+					un conjunto de elementos del mismo tipo, almacenados en posiciones
+					contiguas de memoria.</p>
+				<p>Los arreglos pueden ser unidimensionales o
+					multidimensionales. Los arreglos unidimensionales tienen una sola
+					fila de elementos, mientras que los arreglos multidimensionales
+					tienen varias filas y columnas.</p>
+				<p>Para declarar y utilizar un arreglo en Java, se utiliza la
+					siguiente sintaxis:</p>
+				<pre>
+					<code>// Declaración e inicialización de un arreglo unidimensional
+							int[] numeros = new int[5];
+							// Acceso y asignación de valores a elementos del arreglo
+							numeros[0] = 10;
+							numeros[1] = 20;
+							// Declaración e inicialización de un arreglo multidimensional
+							int[][] matriz = new int[3][3];
+							// Acceso y asignación de valores a elementos de la matriz
+							matriz[0][0] = 1;
+							matriz[0][1] = 2;
+					</code>
+				</pre>
+				<p>Los arreglos son una estructura de datos fundamental en Java
+					y se utilizan ampliamente para almacenar y manipular colecciones de
+					datos.</p>
+			</div>
+			<div>
+				<h3>Colecciones:</h3>
+				<p>En Java, las colecciones son estructuras de datos que
+					permiten almacenar y manipular conjuntos de objetos de manera
+					dinámica.</p>
+				<p>Java proporciona una amplia variedad de clases y interfaces
+					en el paquete `java.util` para trabajar con colecciones. Algunas de
+					las interfaces más comunes son `List`, `Set` y `Map`.</p>
+				<p>Las colecciones en Java pueden contener elementos de
+					cualquier tipo de objeto, incluidos los tipos primitivos si se
+					utilizan clases envolventes.</p>
+				<p>Para utilizar colecciones en Java, primero debes importar el
+					paquete `java.util` y luego puedes crear instancias de las clases
+					de colecciones según tus necesidades. Aquí hay un ejemplo de cómo
+					crear e inicializar una lista:</p>
+				<p>Las colecciones son fundamentales en Java y se utilizan
+					ampliamente en el desarrollo de aplicaciones para almacenar,
+					recuperar y manipular datos de manera eficiente.</p>
+			</div>
+		</div>
+	</main>
+	<aside>
+		<h3>Recursos Adicionales</h3>
+		<ul>
+			<li><a href="https://www.java.com">Página oficial de Java</a></li>
+			<li><a href="https://spring.io/tools">Sitio web de Spring
+					Tool Suite</a></li>
+			<li><a href="https://www.eclipse.org/sts">Página oficial de
+					Eclipse Spring Tool Suite</a></li>
+		</ul>
+	</aside>
+	<footer> </footer>
 </body>
 </html>
