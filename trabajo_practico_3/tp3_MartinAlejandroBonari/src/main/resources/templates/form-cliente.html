@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario</title>
+</head>
+<body>
+	<header>
+		<h1>Formulario de Obtencion de Datos</h1>
+	</header>
+	<h2>Formulario Alta de Usuario</h2>
+	<form>
+		<fieldset>
+			<legend>Informacion Personal</legend>
+			<label for="Dni">Documento Nacional de Identidad: </label> <input
+				type="number" name="Dni" required> <br><br>
+			<div>
+				<label for="nombre">Nombre:</label> <input type="text"
+					name="nombres" required> <br><br> <label for="apellido">Apellido:
+				</label> <input type="text" name="apellidos" required> <br><br>
+			</div>
+			<label for="fecha">Fecha de Nacimiento</label> <input type="date"
+				name="fecha" required><br><br>
+			<div>
+				<label>Seleccione su Genero:</label> <br> <label for="genero">masculino</label>
+				<input type="radio" name="genero" id="masculino" value="masculino">
+				<br> <label for="genero">femenino</label> <input type="radio"
+					name="genero" id="femenino" value="femenino"> <br> <label
+					for="genero">otro</label> <input type="radio" name="genero"
+					id="otro" value="otro">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Informacion de Contacto</legend>
+			<label for="email">Email o Mail</label> <input type="email"
+				name="email" required> <br><br> <label for="password">Ingrese
+				Contraseña</label> <input type="password" name="password" required>
+			<br><br> <label for="domicilio">Domicilio:</label> <input
+				type="text" name="domicilio" required><br><br> <label
+				for="provincia">Provincia:</label> <select name="provincia" required>
+				<option value="">seleccione provincia</option>
+				<option value="Buenos Aires">Buenos Aires</option>
+				<option value="Catamarca">Catamarca</option>
+				<option value="Chaco">Chaco</option>
+				<option value="Chubut">Chubut</option>
+				<option value="Córdoba">Córdoba</option>
+				<option value="Corrientes">Corrientes</option>
+				<option value="Entre Ríos">Entre Ríos</option>
+				<option value="Formosa">Formosa</option>
+				<option value="Jujuy">Jujuy</option>
+				<option value="La Pampa">La Pampa</option>
+				<option value="La Rioja">La Rioja</option>
+				<option value="Mendoza">Mendoza</option>
+				<option value="Misiones">Misiones</option>
+				<option value="Neuquén">Neuquén</option>
+				<option value="Río Negro">Río Negro</option>
+				<option value="Salta">Salta</option>
+				<option value="San Juan">San Juan</option>
+				<option value="San Luis">San Luis</option>
+				<option value="Santa Cruz">Santa Cruz</option>
+				<option value="Santa Fe">Santa Fe</option>
+				<option value="Santiago del Estero">Santiago del Estero</option>
+				<option value="Tierra del Fuego">Tierra del Fuego</option>
+				<option value="Tucumán">Tucumán</option>
+			</select><br>
+		</fieldset>
+		<fieldset>
+			<legend>Preferencias</legend>
+			<label>Categorías de Interés:</label><br> <input type="radio"
+				id="categoria1" name="categorias_interes" value="tecnologia">
+			<label for="categoria1">Tecnología</label><br> <input
+				type="radio" id="categoria" name="categorias_interes"
+				value="ciencia"> <label for="categoria">Ciencia</label><br>
+			<input type="radio" id="categoria" name="categorias_interes"
+				value="arte"> <label for="categoria">Arte</label><br>
+			<input type="radio" id="categoria" name="categorias_interes"
+				value="deportes"> <label for="categoria">Deportes</label><br>
+			<input type="radio" id="categoria" name="categorias_interes"
+				value="musica"> <label for="categoria">Música</label><br>
+			<br><br>
+			<label for="sugerencias">Sugerencias para la empresa:</label><br>
+            <textarea id="sugerencias" name="sugerencias" rows="5" cols="50"></textarea><br>
+		</fieldset>
+		<fieldset>
+			<legend>Aceptar Nuestras Condiciones</legend>
+			<label for="Terminos y Condiciones">¿Acepto los terminos y
+				Condiciones?</label> <input type="checkbox" name="Terminos y Condiciones"
+				required> <br> <label for="recepcion informacion">¿Acepta
+				Recibir Informacion relativa a la empresa?</label> <input type="checkbox"
+				name="recepcion informacion" required> <br><br> <input
+				type="submit" name="envio">
+		</fieldset>
+	</form>
+</body>
+</html>
