@@ -28,6 +28,9 @@
   	list-style: none;
   	gap: 10px;
 }
+.barra_de_nac h2{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .barra_de_nav a {
 	text-decoration: none;
 	color: inherit;
@@ -38,74 +41,172 @@
 	flex-direction:row;
 	align-items:center;
 }
-.section {
-	
+body{
+	background-color: #ABB2B9;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* Estilo general para el formulario */
-form {
-    max-width: 600px; /* Ancho máximo del formulario */
-    margin: 0 auto; /* Centrar el formulario */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
+.first-section{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.first-section section {
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	align-content: center;
+	max-height: 200px;
+	max-width: 600px;
+	background-color: #85929E;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+}
+.second-section {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.second-section section{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	align-content: center;
+	max-height: 500px;
+	max-width: 400px;
+	background-color: #85929E;
+}
+.third-section {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.third-section section{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	max-height: 500px;
+	max-width: 400px;
+	align-content: center;
+	background-color: #85929E;
+}
+h2{
+	text-align: center;
+	font-size: 24px;
+	font-family: monospace;
+}
+.tabla{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin: 30px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	text-align: center;
+	background-color: #85929E;
+}
+.conteiner_interface{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 15px;
+	margin: 30px;
+	display: flex;
+	justify-content:center;
+	text-align: left;
+	background-color: #85929E;
+}
+.container_array{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 15px;
+	margin: 30px;
+	text-align: left;
+	background-color: #85929E;
+}
+.container_col{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin: 30px;
+	padding: 15px;
+	text-align: left;
+	background-color: #85929E;
+}
+.container_col h3{
+	text-align: center;
+}
+#CuartaParte {
+	margin-top: 35px;
+}
+.last_section{
+	margin: 30px;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items:baseline;
+	text-align: center;
+}
+.last_section section{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.9);
+	border-radius: 10px;
+	padding: 15px;
+	margin: 30px;
+	text-align: center;
+	max-height: 300px;
+	max-width: 600px;
+	background-color: #85929E;
+}
+aside ul{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: baseline;
 }
 
-/* Estilo para los fieldsets */
-fieldset {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    padding: 10px;
+aside img{
+	height: 80px;
+	border-radius: 1em;
 }
 
-/* Estilo para las leyendas de los fieldsets */
-legend {
-    font-weight: bold;
-    padding: 0 10px;
-}
 
-/* Estilo para los labels */
-label {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
 
-/* Estilo para los inputs, selects, y textareas */
-input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="password"],
-input[type="date"],
-select,
-textarea {
-    width: 100%; /* Abarcar todo el ancho disponible */
-    padding: 8px;
-    margin: 5px 0 15px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* Para incluir padding y border en el ancho total */
-}
 
-/* Estilo para los radio buttons y checkboxes */
-input[type="radio"],
-input[type="checkbox"] {
-    margin-right: 10px;
-}
 
-/* Estilo para el botón de envío */
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+footer{
+	background-color:  #17202A;
+	color: #ABB2B9;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
-
-/* Cambiar el fondo del botón al pasar el ratón por encima */
-input[type="submit"]:hover {
-    background-color: #45a049;
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	transition: all 0.3s ease;
+}
+ a:hover {
+            font-weight: bold;
+            font-size: 1.1em; /* Incrementa ligeramente el tamaño de la fuente */
+        }
+footer img {
+	width: 75px;
+	padding: 0.5em;
 }
