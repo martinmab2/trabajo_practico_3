@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#encabezado {
+	background-color: #17202A;
+}
+.header{
+	background-color: #17202A;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+  	align-items:center;
+  	color: #ABB2B9;
+  	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header img{
+	width: 75px;
+	padding: 0.5em;
+}
+.barra_de_nav{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+  	align-items:unset;
+  	list-style: none;
+  	gap: 10px;
+}
+.barra_de_nav a {
+	text-decoration: none;
+	color: inherit;
+	
+}
+.cont{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+}
+.section {
+	
+}
+/* Estilo general para el formulario */
+form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para los fieldsets */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Estilo para las leyendas de los fieldsets */
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* Estilo para los labels */
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para los inputs, selects, y textareas */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%; /* Abarcar todo el ancho disponible */
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para incluir padding y border en el ancho total */
+}
+
+/* Estilo para los radio buttons y checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Cambiar el fondo del botón al pasar el ratón por encima */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
