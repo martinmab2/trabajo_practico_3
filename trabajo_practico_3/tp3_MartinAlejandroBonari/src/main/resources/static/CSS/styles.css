@@ -1,0 +1,212 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#encabezado {
+	background-color: #17202A;
+}
+.header{
+	background-color: #17202A;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+  	align-items:center;
+  	color: #ABB2B9;
+  	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header img{
+	width: 75px;
+	padding: 0.5em;
+}
+.barra_de_nav{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+  	align-items:unset;
+  	list-style: none;
+  	gap: 10px;
+}
+.barra_de_nac h2{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.barra_de_nav a {
+	text-decoration: none;
+	color: inherit;
+	
+}
+.cont{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+}
+body{
+	background-color: #ABB2B9;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first-section{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.first-section section {
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	align-content: center;
+	max-height: 200px;
+	max-width: 600px;
+	background-color: #85929E;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+}
+.second-section {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.second-section section{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	align-content: center;
+	max-height: 500px;
+	max-width: 400px;
+	background-color: #85929E;
+}
+.third-section {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.third-section section{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	max-height: 500px;
+	max-width: 400px;
+	align-content: center;
+	background-color: #85929E;
+}
+h2{
+	text-align: center;
+	font-size: 24px;
+	font-family: monospace;
+}
+.tabla{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin: 30px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	text-align: center;
+	background-color: #85929E;
+}
+.conteiner_interface{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 15px;
+	margin: 30px;
+	display: flex;
+	justify-content:center;
+	text-align: left;
+	background-color: #85929E;
+}
+.container_array{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 15px;
+	margin: 30px;
+	text-align: left;
+	background-color: #85929E;
+}
+.container_col{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin: 30px;
+	padding: 15px;
+	text-align: left;
+	background-color: #85929E;
+}
+.container_col h3{
+	text-align: center;
+}
+#CuartaParte {
+	margin-top: 35px;
+}
+.last_section{
+	margin: 30px;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items:baseline;
+	text-align: center;
+}
+.last_section section{
+	box-shadow: 10px 6px 8px 6px rgba(0, 0, 0, 0.9);
+	border-radius: 10px;
+	padding: 15px;
+	margin: 30px;
+	text-align: center;
+	max-height: 300px;
+	max-width: 600px;
+	background-color: #85929E;
+}
+aside ul{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+aside img{
+	height: 80px;
+	border-radius: 1em;
+}
+
+
+
+
+
+footer{
+	background-color:  #17202A;
+	color: #ABB2B9;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	transition: all 0.3s ease;
+}
+ a:hover {
+            font-weight: bold;
+            font-size: 1.1em; /* Incrementa ligeramente el tamaño de la fuente */
+        }
+footer img {
+	width: 75px;
+	padding: 0.5em;
+}
